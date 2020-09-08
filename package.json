@@ -1,0 +1,23 @@
+{
+  "name": "tanda-day",
+  "version": "1.0.0",
+  "description": "Toma la hora del sistema y regresa la hora con su descipción",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "npm"
+  ],
+  "author": "Walter",
+  "license": "MIT",
+  "bin": {
+    "tanda-day": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "0.0.0"
+  }
+}
